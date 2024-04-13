@@ -14,6 +14,13 @@ namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DependencyContainer
 {
+
+    public static IServiceCollection AddNorthWindServices(this IServiceCollection services)
+    {
+        services.AddDebugWriter();
+        return services;
+    }
+
     public static IServiceCollection AddServices(this IServiceCollection services)
     {
         services.AddSingleton<IUserActionWriter, ConsoleWriter>();
