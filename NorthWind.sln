@@ -35,6 +35,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Writers", "NorthW
 		NorthWind.Writers.csproj = NorthWind.Writers.csproj
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Core", "NorthWind.Core", "{E01165C4-A4AA-4BC2-9E94-992F92F1633C}"
+	ProjectSection(SolutionItems) = preProject
+		NorthWind.core.csproj = NorthWind.core.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{482DA144-828D-432D-9BEB-B2B7F4CBAF21}"
+	ProjectSection(SolutionItems) = preProject
+		IAppLogger.cs = IAppLogger.cs
+		IProductService.cs = IProductService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.IoC", "NorthWind.IoC", "{40327F88-51A8-425B-979B-2D312C2DBE75}"
+	ProjectSection(SolutionItems) = preProject
+		DependencyContainer.cs = DependencyContainer.cs
+		NorthWind.IoC.csproj = NorthWind.IoC.csproj
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +59,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{553F575C-2271-4741-921D-0E612D496C41} = {EB87D921-253E-4B4D-88F0-DC4B5DF9CA15}
 		{18816EBC-B006-402F-8644-B8DD1982C78C} = {6A934DDF-37E4-47FB-A7FA-91EF12EB0ECA}
+		{482DA144-828D-432D-9BEB-B2B7F4CBAF21} = {EB87D921-253E-4B4D-88F0-DC4B5DF9CA15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C115456-3288-4E9B-84E2-1038F3149750}

@@ -3,7 +3,7 @@ using NorthWind.Entities.ValueObjects;
 
 namespace NorthWind.ConsoleApp.Services
 {
-    internal class AppLogger(IEnumerable<IUserActionWriter> writers)
+    internal class AppLogger(IEnumerable<IUserActionWriter> writers) : IAppLogger
     {
         public void WriteLog(string message)
         {
