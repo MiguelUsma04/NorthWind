@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Entities", "NorthWind.Entities", "{EB87D921-253E-4B4D-88F0-DC4B5DF9CA15}"
+	ProjectSection(SolutionItems) = preProject
+		NortthWind.Entities.csproj = NortthWind.Entities.csproj
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValueObjects", "ValueObjects", "{553F575C-2271-4741-921D-0E612D496C41}"
 	ProjectSection(SolutionItems) = preProject
