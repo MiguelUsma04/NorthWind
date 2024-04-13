@@ -37,6 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Writers", "NorthW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Core", "NorthWind.Core", "{E01165C4-A4AA-4BC2-9E94-992F92F1633C}"
 	ProjectSection(SolutionItems) = preProject
+		DependencyContainer.cs = DependencyContainer.cs
 		NorthWind.core.csproj = NorthWind.core.csproj
 	EndProjectSection
 EndProject
