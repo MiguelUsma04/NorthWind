@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{18816EBC-B006-402F-8644-B8DD1982C78C}"
 	ProjectSection(SolutionItems) = preProject
 		AppLogger.cs = AppLogger.cs
+		ProductService.cs = ProductService.cs
 	EndProjectSection
 EndProject
 Global
