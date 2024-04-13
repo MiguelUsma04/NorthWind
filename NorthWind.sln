@@ -25,6 +25,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{18
 		ProductService.cs = ProductService.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Writers", "NorthWind.Writers", "{990C0347-E87F-4B60-9125-0056B82F98AA}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleWriter.cs = ConsoleWriter.cs
+		NorthWind.Writers.csproj = NorthWind.Writers.csproj
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
