@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Writers", "NorthW
 	ProjectSection(SolutionItems) = preProject
 		ConsoleWriter.cs = ConsoleWriter.cs
 		DebugWriter.cs = DebugWriter.cs
+		DependencyContainer.cs = DependencyContainer.cs
 		FileWriter.cs = FileWriter.cs
 		NorthWind.Writers.csproj = NorthWind.Writers.csproj
 	EndProjectSection
